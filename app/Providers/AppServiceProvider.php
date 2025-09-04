@@ -12,4 +12,6 @@ class AppServiceProvider extends ServiceProvider
             $url->forceScheme('https');
         }
     }
+     public function register() {}
+    public function boot() {}
 }
